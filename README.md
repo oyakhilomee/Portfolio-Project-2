@@ -1,3 +1,3 @@
-## This is a simple portfolio page I'm creating for myself.
+## This is a simple portfolio website I'm creating for myself.
 
-I got the design from templatemo.com. I used SASS and a little bit of bootstrap build this up.
+I got the design from [Templatemo.](https://templatemo.com) I used SASS and a little bit of Bootstrap to build this up.
