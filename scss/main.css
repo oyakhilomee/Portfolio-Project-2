@@ -26,6 +26,23 @@ ul li {
   padding-right: 30px;
 }
 
+.nav-home {
+  color: #eb5424;
+}
+
+.nav-list {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #353030;
+}
+
+.nav-list:hover {
+  color: #eb5424;
+  cursor: pointer;
+}
+
 #my-name {
   color: #5f5f5f;
   text-transform: uppercase;
@@ -33,6 +50,7 @@ ul li {
 }
 
 .job-title {
+  font-family: "Shadows Into Light", cursive;
   color: #eb5424;
   font-size: 30px;
   font-weight: bold;
@@ -43,14 +61,15 @@ ul li {
   margin-bottom: 20px;
 }
 
-.container-one {
+header {
   background-image: url(../Assets/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
   height: 100vmin;
-  width: 100%;
+}
+
+.container-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,6 +83,7 @@ ul li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 250px;
 }
 
 .btn-action {
@@ -73,5 +93,84 @@ ul li {
   padding: 15px 35px 15px 35px;
   border-radius: 2px;
   display: block;
+}
+
+.btn-action:hover {
+  font-family: "Shadows Into Light", cursive;
+  color: white;
+  background-color: #3b5998;
+  font-size: large;
+  text-decoration: none;
+  border-radius: 100%;
+}
+
+.cta:hover {
+  font-family: "Shadows Into Light", cursive;
+  color: white;
+  background-color: #55acee;
+  font-weight: 2rem;
+  text-decoration: none;
+}
+
+.section-two {
+  height: 100vmin;
+}
+
+.p-section-two {
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin: 100px 0 50px 190px;
+  color: #5f5f5f;
+}
+
+.small-text {
+  text-transform: uppercase;
+  color: #eb5424;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.blockcards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.blockcards .block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 0.5px solid #5f5f5f;
+  padding: 140px 10px 140px 10px;
+  margin-left: 25px;
+}
+
+.blockcards .block:hover {
+  border: 0.5px solid #eb5424;
+}
+
+.fas {
+  padding-bottom: 20px;
+  color: #5f5f5f;
+}
+
+.card-text {
+  color: #5f5f5f;
 }
 /*# sourceMappingURL=main.css.map */

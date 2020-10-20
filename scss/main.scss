@@ -26,6 +26,23 @@ ul li {
   padding-right: 30px;
 }
 
+.nav-home {
+  color: $color-two;
+}
+
+.nav-list {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: rgb(53, 48, 48);
+}
+
+.nav-list:hover {
+  color: $color-two;
+  cursor: pointer;
+}
+
 #my-name {
   color: $color-one;
   text-transform: uppercase;
@@ -33,6 +50,7 @@ ul li {
 }
 
 .job-title {
+  font-family: "Shadows Into Light", cursive;
   color: $color-two;
   font-size: 30px;
   font-weight: bold;
@@ -43,18 +61,20 @@ ul li {
   margin-bottom: 20px;
 }
 
-.container-one {
+header {
   background-image: url(../Assets/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
   height: 100vmin;
-  width: 100%;
+}
+
+.container-one {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 250px;
 }
 
 .btn-action {
@@ -66,9 +86,65 @@ ul li {
   display: block;
 }
 
-// .btn-action:hover {
-//   color: $color-one;
-//   background-color: white;
-//   font-size: large;
-//   text-decoration: none;
-// }
+.btn-action:hover {
+  font-family: "Shadows Into Light", cursive;
+  color: white;
+  background-color: $color-five;
+  font-size: large;
+  text-decoration: none;
+  border-radius: 100%;
+}
+
+.cta:hover {
+  font-family: "Shadows Into Light", cursive;
+  color: white;
+  background-color: $color-four;
+  font-weight: 2rem;
+  text-decoration: none;
+}
+.section-two {
+  height: 100vmin;
+}
+
+.p-section-two {
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin: 100px 0 50px 190px;
+  color: $color-one;
+}
+.small-text {
+  text-transform: uppercase;
+  color: $color-two;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.blockcards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+
+  .block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0.5px solid $color-one;
+    padding: 140px 10px 140px 10px;
+    margin-left: 25px;
+  }
+  .block:hover {
+    border: 0.5px solid $color-two;
+  }
+}
+
+.fas {
+  padding-bottom: 20px;
+  color: $color-one;
+}
+
+.card-text {
+  color: $color-one;
+}
