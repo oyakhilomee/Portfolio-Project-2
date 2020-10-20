@@ -2,6 +2,17 @@ h1 {
   color: blue;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .btn {
   background-color: yellow;
+  border: none;
+  padding: 10px 5px 10px 5px;
+  border-radius: 10px;
+  //   display: block;
 }
