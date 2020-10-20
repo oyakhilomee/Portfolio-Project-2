@@ -1,8 +1,56 @@
-h1 {
-  color: blue;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.container {
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+ul li {
+  list-style: none;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+#my-name {
+  color: #5f5f5f;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.job-title {
+  color: #eb5424;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.write-up {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container-one {
+  background-image: url(../Assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  height: 100vmin;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,10 +66,12 @@ h1 {
           flex-direction: column;
 }
 
-.btn {
-  background-color: yellow;
+.btn-action {
+  background-color: #eb5424;
+  color: white;
   border: none;
-  padding: 10px 5px 10px 5px;
-  border-radius: 10px;
+  padding: 15px 35px 15px 35px;
+  border-radius: 2px;
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */

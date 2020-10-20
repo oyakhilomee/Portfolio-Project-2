@@ -1,18 +1,74 @@
-h1 {
-  color: blue;
+$color-one: rgb(95, 95, 95);
+$color-two: rgb(235, 84, 36);
+$color-three: rgb(204, 33, 39);
+$color-four: rgb(85, 172, 238);
+$color-five: rgb(59, 89, 152);
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.container {
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+ul li {
+  list-style: none;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+#my-name {
+  color: $color-one;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.job-title {
+  color: $color-two;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.write-up {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container-one {
+  background-image: url(../Assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  height: 100vmin;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.btn {
-  background-color: yellow;
+.btn-action {
+  background-color: $color-two;
+  color: white;
   border: none;
-  padding: 10px 5px 10px 5px;
-  border-radius: 10px;
-  //   display: block;
+  padding: 15px 35px 15px 35px;
+  border-radius: 2px;
+  display: block;
 }
+
+// .btn-action:hover {
+//   color: $color-one;
+//   background-color: white;
+//   font-size: large;
+//   text-decoration: none;
+// }
